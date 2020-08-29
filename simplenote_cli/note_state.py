@@ -15,9 +15,9 @@ class NoteState:
         pass
 
     @classmethod
-    def new(*, localkey, content={}):
+    def new(cls, *, localkey, content={}):
         pass
 
     @classmethod
-    def load(*, content={}):
+    def load(cls, *, content={}):
         pass
